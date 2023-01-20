@@ -22,9 +22,7 @@ public class HorseBarnRunner
         test("Duke", 6, sweetHome);
         test("Coco", -1, sweetHome);
 
-        /* ---- TEST PART B ---- */
-        // uncomment test code when you are ready
-/*
+
     System.out.println("********** TESTING PART B **********");
     HorseBarn barn = new HorseBarn(7);
     barn.placeHorse(new Horse("Trigger", 1340), 0);
@@ -43,7 +41,7 @@ public class HorseBarnRunner
     test("Patches", 2, barn);
     test("Duke", 3, barn);
     test("Coco", -1, barn);
-*/
+
     }
 
     public static void test(String name, int correctIdx, HorseBarn barn)
